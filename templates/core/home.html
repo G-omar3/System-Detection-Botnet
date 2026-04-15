@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}SentinelFlux{% endblock %}
+{% block content %}
+<div class="dash">
+    <header class="topbar">
+        <div class="topbar-left">
+            <div class="logo">N</div>
+            <div>
+                <div class="title">NetWatch SOC</div>
+                <div class="subtitle">Detection botnet par machine en temps reel</div>
+            </div>
+        </div>
+        <div class="topbar-actions">
+            <div class="notify-chip">
+                <span>Notifications</span>
+                <strong id="notificationCount">0</strong>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-shell">
+        <aside class="sidebar">
+            <div class="nav-section">Vue</div>
+            <nav class="menu">
+                <button class="menu-item active" data-view="overview"><span class="nav-icon">⬛</span>Vue globale</button>
+                <button class="menu-item" data-view="machines"><span class="nav-icon">▦</span>Machines</button>
+                <button class="menu-item" data-view="alerts"><span class="nav-icon">▲</span>Alertes</button>
+                <button class="menu-item" data-view="report"><span class="nav-icon">▤</span>Rapports</button>
+            </nav>
+
+            <div class="nav-section">Parametres</div>
+            <section class="sidebar-panel">
+                <label>Seuil de detection</label>
+                <input id="thresholdInput" type="range" min="10" max="90" value="40">
+                <div class="slider-value" id="thresholdValue">40</div>
+
+                <label>Sensibilite</label>
+                <select id="sensitivityInput">
+                    <option value="standard">Standard</option>
+                    <option value="high">Elevee</option>
+                    <option value="low">Basse</option>
+                </select>
+
+                <label>Mode live</label>
+                <select id="liveMode">
+                    <option value="http">HTTP API</option>
+                    <option value="udp">UDP collector</option>
+                    <option value="zeek">Zeek JSON</option>
+                    <option value="suricata">Suricata EVE</option>
+                    <option value="tshark">tshark</option>
+                    <option value="netflow">NetFlow / Firewall</option>
+                </select>
+
+                <label>Host</label>
+                <input id="liveHost" value="127.0.0.1">
+
+                <label>Port</label>
+                <input id="livePort" type="number" value="5055">
+
+                <div class="row">
+                    <button id="startLiveBtn" class="primary">Demarrer</button>
+                    <button id="stopLiveBtn">Arreter</button>
+                </div>
+
+                <div id="liveStatus" class="status-card"></div>
+            </section>
+        </aside>
+
+        <main class="content">
+            <section id="contentView" class="content-view"></section>
+        </main>
+    </div>
+</div>
+
+<div id="toastStack" class="toast-stack"></div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'js/charts.js' %}"></script>
+{% endblock %}

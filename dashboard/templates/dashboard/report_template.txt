@@ -1,0 +1,74 @@
+NetWatch SOC - Rapport du projet
+
+Description du projet
+NetWatch SOC est une plateforme SOC de detection botnet orientee machine.
+L'unite d'analyse correspond au profil d'une machine sur une fenetre de 5 minutes.
+Le projet combine explicabilite, analyse comportementale et visualisation pour une utilisation pedagogique et operationnelle.
+
+Modele ML
+Analyse par machine sur fenetres de 5 minutes.
+Features utilisees:
+- trafic global
+- comportement reseau
+- DNS
+- temporel
+ML classique:
+- IsolationForest pour la detection d'anomalies comportementales
+- RandomForestClassifier pour la classification fine des activites
+Deep learning:
+- Dense Autoencoder pour detecter les deviations subtiles par erreur de reconstruction
+Fusion hybride:
+- combinaison entre regles explicables, ML classique et deep learning
+
+Resume executif
+Machines analysees: {machine_count}
+Alertes: {alert_count}
+Critiques: {critical_count}
+Suspectes: {suspect_count}
+Types detectes: {attack_types}
+
+Notifications principales
+{notifications}
+
+Machines prioritaires
+{machines}
+
+Fonctionnement du dashboard
+1. chargement d'un scenario ou activation du flux live
+2. extraction et aggregation des features par machine
+3. inference par le pipeline hybride
+4. production du score, de la classe, du type d'activite et des explications
+5. affichage des alertes, notifications et resultats d'investigation
+
+Procedure de test sur un reseau reel
+1. choisir une source de logs reseau comme Zeek, Suricata, tshark ou un export firewall
+2. convertir chaque evenement reseau en ligne JSON compatible avec l'API live
+3. demarrer le dashboard en mode UDP collector ou utiliser l'endpoint HTTP /api/live/ingest
+4. envoyer les flows depuis la machine de capture vers le serveur Django
+5. verifier dans le dashboard l'apparition des machines, des alertes et du score de risque
+
+Exemple de champs attendus pour chaque flow
+- timestamp
+- src_ip
+- dst_ip
+- dst_port
+- protocol
+- bytes_sent
+- bytes_received
+- packets
+- duration
+- status
+- dns_query
+- dns_response_code
+
+Exemple de deploiement simple
+- PC 1 : machine de capture Zeek ou tshark
+- PC 2 : serveur Django NetWatch SOC
+- reseau local : trafic de test genere depuis un poste client ou une VM
+- sortie : envoi des flows au projet via UDP ou HTTP pour analyse en quasi temps reel
+
+Ameliorations attendues
+- Entrainement sur trafic reel Zeek ou Suricata.
+- Historisation des alertes et notifications.
+- Streaming WebSocket pour temps reel complet.
+- Calibration fine des seuils par environnement.

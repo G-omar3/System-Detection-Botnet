@@ -1,0 +1,172 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >> endobj
+3 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.2756 841.8898] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >> endobj
+6 0 obj << /Length 4578 >> stream
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 518.9 22.6 Tm (Page 1) Tj ET
+0.9569 0.9725 0.9922 rg
+n 57.02362 727.5433 493.2283 80 re f*
+0.4471 0.6039 0.7961 rg
+n 57.02362 727.5433 5 80 re f*
+BT /F2 22 Tf 0.149 0.2196 0.3333 rg 1 0 0 1 77.0 772.5 Tm (SOC BOTNET ANALYZER) Tj ET
+BT /F1 10 Tf 0.4039 0.4824 0.5961 rg 1 0 0 1 77.0 755.5 Tm (Rapport d'analyse de securite - Centre des operations de securite) Tj ET
+BT /F1 9 Tf 0.4039 0.4824 0.5961 rg 1 0 0 1 404.0 786.0 Tm (02 April 2026  |  NetWatch SOC) Tj ET
+BT /F2 9 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 434.0 772.0 Tm (CONFIDENTIEL) Tj ET
+BT /F2 12 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 57.0 687.5 Tm (RESUME EXECUTIF) Tj ET
+1 w 0.8353 0.8471 0.8627 RG n 57.0 680.5 m 538.2 680.5 l S
+0.9412 0.9529 0.9725 rg
+n 52.5 589.5 107.7 82 re f*
+BT /F2 26 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 58.5 631.5 Tm (6) Tj ET
+BT /F2 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 58.5 599.5 Tm (MACHINES ANALYSEES) Tj ET
+0.9412 0.9529 0.9725 rg
+n 180.0 589.5 107.7 82 re f*
+BT /F2 26 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 186.0 631.5 Tm (6) Tj ET
+BT /F2 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 186.0 599.5 Tm (MACHINES SUSPECTES) Tj ET
+0.9412 0.9529 0.9725 rg
+n 307.6 589.5 107.7 82 re f*
+BT /F2 26 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 313.6 631.5 Tm (0) Tj ET
+BT /F2 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 313.6 599.5 Tm (MACHINES CRITIQUES) Tj ET
+0.9412 0.9529 0.9725 rg
+n 435.2 589.5 107.7 82 re f*
+BT /F2 26 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 441.2 631.5 Tm (6) Tj ET
+BT /F2 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 441.2 599.5 Tm (ALERTES GENEREES) Tj ET
+BT /F2 12 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 57.0 546.5 Tm (OBSERVATIONS PRINCIPALES) Tj ET
+1 w 0.8353 0.8471 0.8627 RG n 57.0 539.5 m 538.2 539.5 l S
+0.9412 0.9529 0.9725 rg
+n 57.0 399.5 481.2 134 re f*
+0.9725 0.9804 0.9922 rg
+n 57.0 503.5 481.2 30 re f*
+0.9412 0.9529 0.9725 rg
+n 57.0 459.5 481.2 44 re f*
+0.9725 0.9804 0.9922 rg
+n 57.0 429.5 481.2 30 re f*
+0.9412 0.9529 0.9725 rg
+n 57.0 399.5 481.2 30 re f*
+BT /F2 14 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 65.0 511.5 Tm (!) Tj ET
+BT /F1 9 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 93.0 511.5 Tm (Machine prioritaire : 192.168.1.20 score 57.55 - C2 communication) Tj ET
+BT /F2 14 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 65.0 468.5 Tm (!) Tj ET
+BT /F1 9 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 93.0 468.5 Tm (Alerte reseau : 192.168.1.20 - C2 communication - activite proche de C2 communication, anomalie com...) Tj ET
+BT /F2 14 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 65.0 437.5 Tm (!) Tj ET
+BT /F1 9 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 93.0 437.5 Tm (Alerte reseau : 192.168.1.10 - C2 communication - activite proche de C2 communication, anomalie com...) Tj ET
+BT /F2 14 Tf 0.4431 0.5882 0.7608 rg 1 0 0 1 65.0 407.5 Tm (!) Tj ET
+BT /F1 9 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 93.0 407.5 Tm (Alerte reseau : 192.168.1.30 - C2 communication - activite proche de C2 communication, anomalie com...) Tj ET
+BT /F2 12 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 57.0 359.5 Tm (MACHINES PRIORITAIRES) Tj ET
+1 w 0.8353 0.8471 0.8627 RG n 57.0 352.5 m 538.2 352.5 l S
+0.9412 0.9529 0.9725 rg
+n 57.0 250.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 322.5 Tm (192.168.1.20) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 306.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 290.5 Tm (Menace: C2 COMMUNICATION) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 268.5 Tm (Justification: activite proche de C2 communication, anomalie comportementale supplementaire detectee) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 260.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 284.5 Tm (57.5) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 264.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 252.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 258.5 Tm (MOYEN) Tj ET
+0.9412 0.9529 0.9725 rg
+n 57.0 148.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 220.5 Tm (192.168.1.10) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 204.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 188.5 Tm (Menace: C2 COMMUNICATION) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 166.5 Tm (Justification: activite proche de C2 communication, anomalie comportementale supplementaire detectee) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 158.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 182.5 Tm (55.8) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 162.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 150.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 156.5 Tm (MOYEN) Tj ET
+
+endstream endobj
+7 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.2756 841.8898] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >> endobj
+8 0 obj << /Length 4302 >> stream
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 518.9 22.6 Tm (Page 2) Tj ET
+0.9412 0.9529 0.9725 rg
+n 57.0 711.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 783.5 Tm (192.168.1.30) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 767.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 751.5 Tm (Menace: C2 COMMUNICATION) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 729.5 Tm (Justification: activite proche de C2 communication, anomalie comportementale supplementaire detectee) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 721.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 745.5 Tm (49.6) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 725.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 713.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 719.5 Tm (MOYEN) Tj ET
+0.9412 0.9529 0.9725 rg
+n 57.0 609.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 681.5 Tm (192.168.1.50) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 665.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 649.5 Tm (Menace: EXFILTRATION) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 627.5 Tm (Justification: activite proche de exfiltration, anomalie comportementale supplementaire detectee) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 619.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 643.5 Tm (48.3) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 623.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 611.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 617.5 Tm (MOYEN) Tj ET
+0.9412 0.9529 0.9725 rg
+n 57.0 507.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 579.5 Tm (192.168.1.40) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 563.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 547.5 Tm (Menace: NORMAL) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 525.5 Tm (Justification: anomalie comportementale supplementaire detectee, bursts de trafic detectes) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 517.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 541.5 Tm (46.7) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 521.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 509.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 515.5 Tm (MOYEN) Tj ET
+0.9412 0.9529 0.9725 rg
+n 57.0 405.5 481.2283 96 re f*
+BT /F2 10 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 73.0 477.5 Tm (192.168.1.60) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 461.5 Tm (Statut: SUSPECT) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 445.5 Tm (Menace: NORMAL) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 73.0 423.5 Tm (Justification: anomalie comportementale supplementaire detectee, bursts de trafic detectes) Tj ET
+0.973 0.979 0.989 rg
+n 468.9 415.5 62.36 50 re f*
+BT /F2 18 Tf 0.3176 0.4824 0.6941 rg 1 0 0 1 482.5 439.5 Tm (40.2) Tj ET
+BT /F1 7 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 482.0 419.5 Tm (SCORE) Tj ET
+0.3176 0.4824 0.6941 rg
+n 468.9 407.5 62.36 18 re f*
+BT /F2 7 Tf 1 1 1 rg 1 0 0 1 485.0 413.5 Tm (MOYEN) Tj ET
+BT /F2 12 Tf 0.1098 0.1569 0.2 rg 1 0 0 1 57.0 263.5 Tm (PILE DE DETECTION) Tj ET
+1 w 0.8353 0.8471 0.8627 RG n 57.0 256.5 m 538.2 256.5 l S
+0.9412 0.9529 0.9725 rg
+n 57.0 138.5 481.2 112 re f*
+0.9725 0.9804 0.9922 rg
+n 57.0 222.5 481.2 28 re f*
+BT /F2 9 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 67.0 230.5 Tm (Regles comportementales) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 222.9 230.5 Tm (Signatures et seuils definis pour le comportement reseau) Tj ET
+BT /F2 9 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 67.0 202.5 Tm (IsolationForest) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 222.9 202.5 Tm (Detection d'anomalies non supervisee par isolement d'instances) Tj ET
+0.9725 0.9804 0.9922 rg
+n 57.0 166.5 481.2 28 re f*
+BT /F2 9 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 67.0 174.5 Tm (RandomForestClassifier) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 222.9 174.5 Tm (Classification supervisee des comportements observes) Tj ET
+BT /F2 9 Tf 0.2039 0.3725 0.6039 rg 1 0 0 1 67.0 146.5 Tm (Autoencoder \(DNN\)) Tj ET
+BT /F1 8 Tf 0.3647 0.4275 0.4941 rg 1 0 0 1 222.9 146.5 Tm (Detection d'ecarts de reconstruction sur les profils de trafic) Tj ET
+
+endstream endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000412 00000 n 
+0000005042 00000 n 
+0000005188 00000 n 
+trailer << /Size 9 /Root 1 0 R >>
+startxref
+9542
+%%EOF
